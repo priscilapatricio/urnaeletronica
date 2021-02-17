@@ -8,6 +8,7 @@ let numeros = document.querySelector('.div-1-3');
 let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
+let votos = [];
 
 function comecarEtapa(){
     let etapa = etapas[etapaAtual];
@@ -50,7 +51,11 @@ function atualizaInterface(){
      
         let fotosHtml = '';
         for(let i in candidato.fotos){
-            fotosHtml += `<div class="div-1-img"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
+            if(candidato.fotos[i].small){
+                fotosHtml += `<div class="div-1-img small"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
+            }else{
+                fotosHtml += `<div class="div-1-img"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
+            }
         }
         lateral.innerHTML = fotosHtml;
     } else {
@@ -92,10 +97,30 @@ function corrige(){
 function confirma(){
     let etapa = etapas[etapaAtual];
 
+    let votoConfirmado = false;
+
     if(votoBranco === true){
-        console.log("Confirmando como BRANCO...");
+        votoConfirmado = true;
+        votos.push({
+            etapa: etapas[etapaAtual].titulo,
+            voto: 'branco'
+        });
     }else if(numero.length === etapa.numeros){
-        console.log("Confirmando como "+numero);
+        votoConfirmado = true;
+        votos.push({
+            etapa: etapas[etapaAtual].titulo,
+            voto: numero
+        });
+    }
+
+    if(votoConfirmado){
+        etapaAtual++;
+        if(etapas[etapaAtual] !== undefined){
+            comecarEtapa();
+        }else{
+            document.querySelector('.tela').innerHTML = '<div class="aviso--gigante pisca">FIM</div>';
+            console.log(votos);
+        }
     }
 }
 
