@@ -4,7 +4,7 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: 38111,
+                numero: '38111',
                 nome: 'Joana Pereira',
                 partido: 'Partido dos Esportes',
                 fotos:[
@@ -12,11 +12,11 @@ let etapas = [
                 ]
             },
             {
-                numero: 77222,
+                numero: '77222',
                 nome: 'Bob Furuya',
                 partido: 'Partido das Artes',
                 fotos:[
-                    {url:'77222.jpg.jpg', legenda: 'Vereador'}
+                    {url:'77222.jpg', legenda: 'Vereador'}
                 ]
             },
         ]
@@ -26,7 +26,7 @@ let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 99,
+                numero: '99',
                 nome: 'Claudia Santos',
                 partido: 'Partido dos Esportes',
                 vice: 'Renato Garcia',
@@ -36,7 +36,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 84,
+                numero: '84',
                 nome: 'Marcela Gonçalves',
                 partido: 'Partido das Artes',
                 vice: 'Fernando Ramos',
