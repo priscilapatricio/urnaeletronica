@@ -34,7 +34,7 @@ Construção de um Simulador de Urna Eletrônica.
 
 Infográfico vetor criado por: [freepik-vetor1](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm) e 
 
-[freepik-vetor2](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm).
+[freepik-vetor2](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309449.htm).
 
 ## 👩🏿‍💻 Como rodar
 
