@@ -3,16 +3,16 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-crédito-ao-autor">Crédito ao Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;
   </p>
 
 <br>
 
 <p align="center">
-  <img alt="Simulador Urna Eletrônica" src="Vereador.png" width="100%"><br>
-  <img alt="Simulador Urna Eletrônica" src="Prefeito.png" width="100%"><br>
-  <img alt="Simulador Urna Eletrônica" src="Fim.png" width="100%">
+  <img alt="Simulador Urna Eletrônica" src="/images/Vereador.png" width="100%"><br>
+  <img alt="Simulador Urna Eletrônica" src="/images/Prefeito.png" width="100%"><br>
+  <img alt="Simulador Urna Eletrônica" src="/images/Fim.png" width="100%">
 
 </p>
 
@@ -32,11 +32,9 @@ Construção de um Simulador de Urna Eletrônica.
 
 ## 🙋 Crédito ao autor
 
-Infográfico vetor criado por:
+Infográfico vetor criado por: [freepik-vetor1](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm) e 
 
-[freepik-vetor1](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm). <br> 
-
-[freepik-vetor2](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm)
+[freepik-vetor2](https://br.freepik.com/vetores-gratis/colecao-de-avatares-de-pessoas_7309455.htm).
 
 ## 👩🏿‍💻 Como rodar
 
